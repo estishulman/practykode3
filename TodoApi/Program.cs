@@ -45,6 +45,7 @@ app.UseSwaggerUI(c =>
 });
 
 // הפעלת Authorization
+
 app.UseAuthorization();
 
 app.MapControllers();
